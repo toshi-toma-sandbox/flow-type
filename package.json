@@ -1,0 +1,17 @@
+{
+  "name": "flow-type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/toshi-toma-sandbox/flow-type.git",
+  "author": "toshi-toma <toshitoma1217@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-flow": "^7.12.13",
+    "flow-bin": "^0.146.0"
+  }
+}
